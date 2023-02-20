@@ -27,8 +27,8 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.header("Fruityvice Fruit Advice!")
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json()) #JUST WRITES THE DATA TO THE SCREEN
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
+
 
 
 # take the json version of the response and normalize it
