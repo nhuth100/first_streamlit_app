@@ -4,7 +4,7 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 #dont run anything past here while we troubleshott
-streamlit-stop()
+streamlit.stop()
 
 
 
